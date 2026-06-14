@@ -1,0 +1,60 @@
+/* This makes the whole background a soft yellow/brown (wheat color) */
+body {
+    background-color: #f5deb3; 
+    color: #3e2723; /* Dark brown text for easy reading */
+    font-family: 'Georgia', serif; /* Gives it a classic book feel */
+    margin: 0;
+    padding: 20px;
+}
+
+/* This creates a slightly lighter reading box in the middle */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff8dc; /* Cornsilk / light yellow */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(62, 39, 35, 0.2);
+}
+
+h1, h2 {
+    color: #5d4037; /* Medium brown for titles */
+}
+
+/* Styles the links to look nice */
+a {
+    color: #8d6e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3e2723;
+}
+
+.story-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.story-list li {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+/* Styles the 'Back' button on the story pages */
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: #5d4037;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-link:hover {
+    background-color: #3e2723;
+    color: white;
+    text-decoration: none;
+}
